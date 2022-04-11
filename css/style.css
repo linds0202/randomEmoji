@@ -1,0 +1,84 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #FCE614;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 3px solid black;
+  height: 12rem;
+  background-color: #f9f4c4;
+}
+
+img{
+  height: 11rem;
+  margin: 0 2rem;
+}
+
+h5 {
+  font-size: 3.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 1rem auto;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.container h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.container button {
+  width: 60%;
+  height: 3rem;
+  align-self: center;
+  background-color: #FF250D;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 2rem;
+}
+
+.container .info {
+  display: flex;
+  width: 100%;
+  border-bottom: .2rem solid black;
+  padding: 0 2rem;
+}
+
+.container .info h2 {
+  width: 30%;
+}
+
+#name, #category {
+  width: 70%;
+}
+
+
+
+h3 {
+  font-size: 15rem;
+  margin: 1.5rem auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
